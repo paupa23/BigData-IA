@@ -7,7 +7,7 @@
 # - Guarda en una variable total_notas la cantidad de notas que hay en la lista.
 # - Muestra por consola la lista final, la primera nota, la última nota y el total de notas.
 
-print("\nSolución del ejercicio 1")
+print("Solución del ejercicio 1")
 
 notas = [6, 8, 5, 9, 7]
 primera_nota = notas[0]
@@ -29,7 +29,7 @@ print("Total de notas:", total_notas)
 # - Calcula el valor total del stock multiplicando precio por unidades.
 # - Muestra por consola el nombre del producto, el precio, las unidades y el valor total del stock.
 
-print("\nSolución del ejercicio 2")
+print("Solución del ejercicio 2")
 
 producto = ("teclado", 25.50, 12)
 nombre = producto[0]
@@ -53,7 +53,7 @@ print("Valor total del stock:", valor_stock)
 # - Añade una nueva clave llamada aprobado. Su valor debe ser el resultado de comprobar si la nota es mayor o igual que 5.
 # - Muestra por consola el diccionario completo al final.
 
-print("\nSolución del ejercicio 3")
+print("Solución del ejercicio 3")
 
 alumno = {"nombre": "Ana", "edad": 16, "curso": "IA", "nota": 7.5}
 print("Nombre:", alumno["nombre"])
@@ -71,7 +71,7 @@ print("Alumno:", alumno)
 # - Crea una variable total_usuarios con el número de usuarios únicos.
 # - Muestra por consola el conjunto final, usuario_existe y total_usuarios.
 
-print("\nSolución del ejercicio 4")
+print("Solución del ejercicio 4")
 
 usuarios = {"Ana", "Luis", "Marta", "Ana", "Pedro"}
 nuevo_usuario = "Luis"
@@ -92,7 +92,7 @@ print("Total de usuarios:", total_usuarios)
 # - Crea una variable puede_acceder que sea True si se cumple acceso_por_edad o acceso_por_socio.
 # - Muestra por consola las tres variables: acceso_por_edad, acceso_por_socio y puede_acceder.
 
-print("\nSolución del ejercicio 5")
+print("Solución del ejercicio 5")
 
 edad = 17
 tiene_permiso = True
