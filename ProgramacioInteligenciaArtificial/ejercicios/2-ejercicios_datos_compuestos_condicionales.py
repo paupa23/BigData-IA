@@ -268,3 +268,17 @@ print("Candidato:", candidato["nombre"])
 print("Curso elegido:", curso_elegido)
 print("Estado:", estado)
 print("Mensaje:", mensaje)
+
+
+#Ejercicio 11
+# La diferencia es que el unico que funciona es i = i+1, el ++i, no funciona, ya que detecta los simbolos por separado
+# Y con el --i y i-- es lo mismo, no funciona
+
+# Ejercicio 12
+# El zip, sirve para unir elementos de varias listas, por ejemplo
+
+jugadores = ["Paupa", "PauMas", "Alex"]
+personajes = ["Mario", "Link", "Estela"]
+print("Ejercicio 12")
+for jugador, personaje in zip(jugadores, personajes):
+    print(jugador, "va a jugar con", personaje)
